@@ -1,0 +1,959 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sh:StandardBusinessDocument xmlns:sh="http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader"
+                             xmlns:eanucc="urn:ean.ucc:2" xmlns:gpc="urn:ean.ucc:gpc:2"
+                             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                             xsi:schemaLocation="http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader ../Schemas/sbdh/StandardBusinessDocumentHeader.xsd urn:ean.ucc:2 ../Schemas/Gs1SchemaProxy.xsd">
+    <sh:StandardBusinessDocumentHeader>
+        <sh:HeaderVersion>2.2</sh:HeaderVersion>
+        <sh:Sender>
+            <sh:Identifier Authority="GS1">0000000000000</sh:Identifier>
+            <sh:ContactInformation>
+                <sh:Contact>Mike Mowad</sh:Contact>
+                <sh:EmailAddress>gsmp@gs1.org</sh:EmailAddress>
+                <sh:FaxNumber>+1 609-557-4599</sh:FaxNumber>
+                <sh:TelephoneNumber>+1 609-557-4568</sh:TelephoneNumber>
+                <sh:ContactTypeIdentifier></sh:ContactTypeIdentifier>
+            </sh:ContactInformation>
+        </sh:Sender>
+        <sh:Receiver>
+            <sh:Identifier Authority="GS1">0000000000000</sh:Identifier>
+            <sh:ContactInformation>
+                <sh:Contact>Mike Mowad</sh:Contact>
+                <sh:EmailAddress>gsmp@gs1.org</sh:EmailAddress>
+                <sh:FaxNumber>+1 609-557-4599</sh:FaxNumber>
+                <sh:TelephoneNumber>+1 609-557-4568</sh:TelephoneNumber>
+                <sh:ContactTypeIdentifier></sh:ContactTypeIdentifier>
+            </sh:ContactInformation>
+        </sh:Receiver>
+        <sh:DocumentIdentification>
+            <sh:Standard>GS1</sh:Standard>
+            <sh:TypeVersion>2.0.2</sh:TypeVersion>
+            <sh:InstanceIdentifier>100003</sh:InstanceIdentifier>
+            <sh:Type>Gs1Schema</sh:Type>
+            <sh:MultipleType>false</sh:MultipleType>
+            <sh:CreationDateAndTime>2005-09-19T12:00:01.000</sh:CreationDateAndTime>
+        </sh:DocumentIdentification>
+    </sh:StandardBusinessDocumentHeader>
+    <eanucc:message>
+        <entityIdentification>
+            <uniqueCreatorIdentification>MSG-123-20050919</uniqueCreatorIdentification>
+            <contentOwner>
+                <gln>0000000000000</gln>
+            </contentOwner>
+        </entityIdentification>
+        <gpc:gs1Schema xsi:schemaLocation="urn:ean.ucc:2 ../Schemas/Gs1SchemaProxy.xsd">
+            <schema>
+                <currentVersion>as at 01062020 EN</currentVersion>
+                <previousVersion></previousVersion>
+                <segment code="70000000" text="Arts/Crafts/Needlework" definition="">
+                    <family code="70010000" text="Arts/Crafts/Needlework Supplies" definition="">
+                        <class code="70010100" text="Artists Painting/Drawing Supplies" definition="">
+                            <brick code="10001682" text="Artists Accessories"
+                                   definition="Includes any products that can be described/observed as an item designed to aid the artistic painting process. Includes products such as Brush Cases, Easel Bags and Canvas Frames. Excludes products such as Artists Paints, Brushes, Easels and Palettes.">
+                                <attType code="20001345" text="Type of Artists Accessory"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify the type of artist&apos;s accessory.">
+                                    <attValue code="30008524" text="BRUSH CASE" definition=""/>
+                                    <attValue code="30008525" text="BRUSH HOLDER" definition=""/>
+                                    <attValue code="30008526" text="CANVAS/ART WORK HOLDER" definition=""/>
+                                    <attValue code="30008527" text="EASEL BAG" definition=""/>
+                                    <attValue code="30008529" text="PASTEL CASE" definition=""/>
+                                    <attValue code="30002515" text="UNCLASSIFIED"
+                                              definition="This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat&apos;s cheese - goat&apos;s cheeses is often generically labelled and cannot be further classified."/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                </attType>
+                            </brick>
+                            <brick code="10001674" text="Artists Brushes/Applicators"
+                                   definition="Includes any products that can be described/observed as a device consisting of bristles or a piece of sponge-like material fastened to a handle and used by an artist to apply paint onto a surface such as paper or canvas. Includes products such as Artists Brushes, Applicators and Painting Knives. Specifically excludes Household Paint Brushes classified in DIY. Excludes products such as Airbrushes and Sculpting Applicators.">
+                                <attType code="20001337" text="Type of Artists Brush/Applicator"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify the type of artist&apos;s brush or applicator.">
+                                    <attValue code="30008491" text="ARTISTS BLENDER/FINISHING BRUSH" definition=""/>
+                                    <attValue code="30008492" text="ARTISTS CALLIGRAPHY BRUSH" definition=""/>
+                                    <attValue code="30008493" text="ARTISTS FLAT BRUSH" definition=""/>
+                                    <attValue code="30008494" text="ARTISTS ROUND BRUSH" definition=""/>
+                                    <attValue code="30008495" text="ARTISTS SCRIPT LINER BRUSH" definition=""/>
+                                    <attValue code="30008496" text="ARTISTS SPOTTER BRUSH" definition=""/>
+                                    <attValue code="30002515" text="UNCLASSIFIED"
+                                              definition="This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat&apos;s cheese - goat&apos;s cheeses is often generically labelled and cannot be further classified."/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                </attType>
+                            </brick>
+                            <brick code="10001679" text="Artists Canvas/Pre-primed Boards"
+                                   definition="Includes any products that can be described/observed as a surface used by an artist for painting, which may or may not be covered with a fabric such as canvas or hessian. Includes products such as Artists Stretched Canvas, Canvas Roll and Pre-Primed Boards. Excludes products such as Artists Palettes and Artists Surface Agents.">
+                                <attType code="20001342" text="Type of Artists Canvas/Pre-primed Board"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify the type of canvas or pre-primed board.">
+                                    <attValue code="30008514" text="ARTISTS CANVAS ROLL" definition=""/>
+                                    <attValue code="30008515" text="ARTISTS PRE-PRIMED BOARDS" definition=""/>
+                                    <attValue code="30008516" text="ARTISTS STRETCHED CANVAS" definition=""/>
+                                    <attValue code="30002515" text="UNCLASSIFIED"
+                                              definition="This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat&apos;s cheese - goat&apos;s cheeses is often generically labelled and cannot be further classified."/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                </attType>
+                            </brick>
+                            <brick code="10005372" text="Artists Drawing Boards"
+                                   definition="Includes any products that can be described/observed as a board used by an artist or designer for drawing upon. Includes products such as a portable desktop drawing board and a freestanding drawing board designed with fold-away legs. Excludes products such as artists canvasses or pre-primed boards used for painting upon and presentation boards classified in Stationery.">
+                                <attType code="20002304" text="Desktop/Freestanding"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify whether the product is designed for a desktop or is freestanding.">
+                                    <attValue code="30007587" text="DESKTOP" definition=""/>
+                                    <attValue code="30009198" text="FREESTANDING" definition=""/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                </attType>
+                                <attType code="20000805" text="If Portable"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify whether or not the product claims to be portable.">
+                                    <attValue code="30002960" text="NO" definition=""/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                    <attValue code="30002654" text="YES" definition=""/>
+                                </attType>
+                            </brick>
+                            <brick code="10001681" text="Artists Easels"
+                                   definition="Includes any products that can be described/observed as an upright frame for displaying or supporting an artist&apos;s canvas or board. Includes products such as Free-Standing and Table-Top Easels. Excludes products such as Frames and Stationery Flip Chart Stands.">
+                                <attType code="20001344" text="Type of Artists Easel"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify the type of artist&apos;s easel.">
+                                    <attValue code="30008521" text="FREESTANDING EASEL" definition=""/>
+                                    <attValue code="30008522" text="KNEE-TOP EASEL" definition=""/>
+                                    <attValue code="30008523" text="TABLE-TOP EASEL" definition=""/>
+                                    <attValue code="30002515" text="UNCLASSIFIED"
+                                              definition="This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat&apos;s cheese - goat&apos;s cheeses is often generically labelled and cannot be further classified."/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                </attType>
+                            </brick>
+                            <brick code="10001678" text="Artists Painting Surface Agents"
+                                   definition="Includes any products that can be described/observed as a substance used by artists, which is applied to the painting surface as a pre-paint preparation or post-paint treatment. Includes products such as Artists Canvas Primer, Picture Varnish, Artists Gum Arabic and Artists Paint Lifting Preparation. Specifically excludes all types of Paints classified in DIY. Excludes products such as Artists Paints and Dyes.">
+                                <attType code="20001341" text="Type of Artists Surface Agent"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify the type of artist&apos;s surface agent.">
+                                    <attValue code="30008509" text="ARTISTS CANVAS PRIMER" definition=""/>
+                                    <attValue code="30008510" text="ARTISTS GUM ARABIC" definition=""/>
+                                    <attValue code="30008511" text="ARTISTS MASKING FLUID" definition=""/>
+                                    <attValue code="30008512" text="ARTISTS PICTURE VARNISH" definition=""/>
+                                    <attValue code="30008513" text="ARTISTS WETTING AGENT" definition=""/>
+                                    <attValue code="30002515" text="UNCLASSIFIED"
+                                              definition="This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat&apos;s cheese - goat&apos;s cheeses is often generically labelled and cannot be further classified."/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                </attType>
+                            </brick>
+                            <brick code="10001685" text="Artists Painting/Drawing Supplies Other"
+                                   definition="Includes any products that may be described/observed as Artists Painting/Drawing Supplies products, where the user of the schema is not able to classify the products in existing bricks within the schema. Excludes all currently classified Artists Painting/Drawing Supplies.">
+                            </brick>
+                            <brick code="10001684" text="Artists Painting/Drawing Supplies Variety Packs"
+                                   definition="Includes any products that can be described/observed as two or more distinct Artists Painting/Drawing Supplies products sold together, which exist within the schema belonging to different bricks but to the same class, that is, two or more products contained within the same pack, which cross bricks within the Artists Painting/Drawing Supplies class. Includes products such as Brushes sold with Brush Holders. Items received free with purchases should be removed from the classification decision-making process. Excludes products such as Paintbrushes sold with Pens and Pencils classified in the Stationery segment.">
+                            </brick>
+                            <brick code="10001676" text="Artists Paints/Dyes"
+                                   definition="Includes any products that can be described/ observed as a combination of pigments, thinners and oils, used in effecting an artistic painting. Specifically excludes Surface Agents used to treat, prepare or protect materials such as Varnishes and Primers. Excludes products such as Paints classified in DIY.">
+                                <attType code="20001339" text="Type of Artists Paint/Dye"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify the type of artist&apos;s paint or dye.">
+                                    <attValue code="30008500" text="ARTISTS ACRYLIC PAINT" definition=""/>
+                                    <attValue code="30017819" text="ARTISTS COATING PAINT" definition=""/>
+                                    <attValue code="30017820" text="ARTISTS EMULSION/LATEX PAINT"
+                                              definition="Emulsion paints are water-based paints in which the paint material is dispersed in a liquid that consists mainly of water.&#160;"/>
+                                    <attValue code="30017821" text="ARTISTS FABRIC PAINT" definition=""/>
+                                    <attValue code="30017822" text="ARTISTS FINGERPAINT" definition=""/>
+                                    <attValue code="30008502" text="ARTISTS GLASS PAINT" definition=""/>
+                                    <attValue code="30008503" text="ARTISTS LIQUID LEADING" definition=""/>
+                                    <attValue code="30008501" text="ARTISTS OIL PAINT" definition=""/>
+                                    <attValue code="30008504" text="ARTISTS TEMPERA" definition=""/>
+                                    <attValue code="30008505" text="ARTISTS WATERCOLOUR PAINT" definition=""/>
+                                    <attValue code="30002515" text="UNCLASSIFIED"
+                                              definition="This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat&apos;s cheese - goat&apos;s cheeses is often generically labelled and cannot be further classified."/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                </attType>
+                            </brick>
+                            <brick code="10001680" text="Artists Palettes"
+                                   definition="Includes any products that can be described/observed as a board, which an artist can hold while painting and on which colours are mixed. Excludes products such as Artists Pre-Primed Boards and Easels.">
+                                <attType code="20001343" text="Type of Artists Palette"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify the type of artist&apos;s palette.">
+                                    <attValue code="30008518" text="ARTISTS PALETTE WITH LID" definition=""/>
+                                    <attValue code="30008520" text="ARTISTS TEAR-OFF PALETTE" definition=""/>
+                                    <attValue code="30002515" text="UNCLASSIFIED"
+                                              definition="This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat&apos;s cheese - goat&apos;s cheeses is often generically labelled and cannot be further classified."/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                </attType>
+                            </brick>
+                            <brick code="10001677" text="Artists Pastels/Charcoal/Crayons"
+                                   definition="Includes any products that can be described/observed as a piece of calcite, carbonaceous or wax material used for drawing and artistic colouring. Includes products such as Artists Chalk Pastels, Artists Charcoal and Artists Wax Crayons. Excludes products such as Stationery Pencils, Pens and Charcoal for burning.">
+                                <attType code="20001340" text="Type of Artists Pastel/Charcoal/Crayon"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify the type of pastel, charcoal or crayon.">
+                                    <attValue code="30008506" text="ARTISTS CHALK PASTELS" definition=""/>
+                                    <attValue code="30004552" text="ARTISTS CHARCOAL" definition=""/>
+                                    <attValue code="30011742" text="ARTISTS COLOURED PENCIL" definition=""/>
+                                    <attValue code="30008507" text="ARTISTS WAX CRAYONS" definition=""/>
+                                    <attValue code="30002515" text="UNCLASSIFIED"
+                                              definition="This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat&apos;s cheese - goat&apos;s cheeses is often generically labelled and cannot be further classified."/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                </attType>
+                            </brick>
+                            <brick code="10001683" text="Sand Art Supplies"
+                                   definition="Includes any products that can be described/observed as an item or substance used in sand art and craft activities. Includes products such as Sculpting Sand and Sand Bottles. Excludes products such as Sand classified in DIY Building Materials.">
+                                <attType code="20001346" text="Type of Sand Art Supplies"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify the type of sand art supplies.">
+                                    <attValue code="30008531" text="SAND ART BOTTLE" definition=""/>
+                                    <attValue code="30008532" text="SAND ART JEWELLERY" definition=""/>
+                                    <attValue code="30008533" text="SAND ART PAINT" definition=""/>
+                                    <attValue code="30008534" text="SAND ART PEN" definition=""/>
+                                    <attValue code="30008535" text="SAND ART PICTURE BOARD" definition=""/>
+                                    <attValue code="30008537" text="SAND ART SCULPTING SAND" definition=""/>
+                                    <attValue code="30002515" text="UNCLASSIFIED"
+                                              definition="This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat&apos;s cheese - goat&apos;s cheeses is often generically labelled and cannot be further classified."/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                </attType>
+                            </brick>
+                        </class>
+                        <class code="70010200" text="Airbrushing Supplies" definition="">
+                            <brick code="10001686" text="Airbrushes (Powered)"
+                                   definition="Includes any products that can be described/observed as a powered machine that scatters paint using air pressure and which is used for design illustrations, fine art and delicate fine spray applications. The machine comprises of a compression or propulsion device to scatter the paint. Specifically excludes Spray Paint and Aerosols. Excludes Airbrushing Replacement Parts and Accessories such as Airbrush Control Valves and Airbrush Hoses.">
+                            </brick>
+                            <brick code="10001688" text="Airbrushing Equipment - Replacement Parts/Accessories"
+                                   definition="Includes any products that can be described/observed as a replacement part/accessory for airbrushing equipment. Includes products such as Airbrush Control Valves and Airbrush Hoses. Excludes products such as complete Airbrushes.">
+                                <attType code="20001349"
+                                         text="Type of Airbrushing Equipment - Replacement Part/Accessory"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify the type of replacement part or accessory for airbrushing equipment.">
+                                    <attValue code="30008542" text="AIRBRUSH CONTROL VALVE" definition=""/>
+                                    <attValue code="30008543" text="AIRBRUSH HOSE" definition=""/>
+                                    <attValue code="30008544" text="MOISTURE TRAP" definition=""/>
+                                    <attValue code="30002515" text="UNCLASSIFIED"
+                                              definition="This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat&apos;s cheese - goat&apos;s cheeses is often generically labelled and cannot be further classified."/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                </attType>
+                            </brick>
+                            <brick code="10001690" text="Airbrushing Supplies Other"
+                                   definition="Includes any products that may be described/observed as Airbrushing Supplies products, where the user of the schema is not able to classify the products in existing bricks within the schema. Excludes all currently classified Airbrushing Supplies.">
+                            </brick>
+                            <brick code="10001689" text="Airbrushing Supplies Variety Packs"
+                                   definition="Includes any products that can be described/observed as two or more distinct Airbrushing Supplies products sold together, which exist within the schema belonging to different bricks but to the same class, that is, two or more products contained within the same pack, which cross bricks within the Airbrushing Supplies class. Includes products such as Airbrushes sold with a Compressor. Items received free with purchases should be removed from the classification decision-making process. Excludes products such as Airbrushes sold with Paintbrushes.">
+                            </brick>
+                        </class>
+                        <class code="70010300" text="Sculptors/Pottery Craft Supplies" definition="">
+                            <brick code="10001694" text="Kilns (Powered)"
+                                   definition="Includes any products that may be described/observed as an oven specifically designed for baking, firing or drying crafted ceramics. Excludes products such as Kitchen Ovens.">
+                                <attType code="20001353" text="Installation Type"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify how/where the product is installed.">
+                                    <attValue code="30007757" text="BUILT-IN" definition=""/>
+                                    <attValue code="30007776" text="FREESTANDING (MOVABLE)" definition=""/>
+                                    <attValue code="30002515" text="UNCLASSIFIED"
+                                              definition="This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat&apos;s cheese - goat&apos;s cheeses is often generically labelled and cannot be further classified."/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                </attType>
+                                <attType code="20000787" text="Power Source"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify different types of power source.">
+                                    <attValue code="30008571" text="GAS" definition=""/>
+                                    <attValue code="30009416" text="MAINS ELECTRICITY" definition=""/>
+                                    <attValue code="30008572" text="SOLAR" definition=""/>
+                                    <attValue code="30002515" text="UNCLASSIFIED"
+                                              definition="This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat&apos;s cheese - goat&apos;s cheeses is often generically labelled and cannot be further classified."/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                </attType>
+                            </brick>
+                            <brick code="10001696" text="Pottery Wheels (Non Powered)"
+                                   definition="Includes any products that may be described/observed as a non-powered revolving wheel on which crafted pottery products are formed and shaped. Non-powered pottery wheels are typically foot operated. Excludes products such as powered Pottery Wheels.">
+                                <attType code="20001353" text="Installation Type"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify how/where the product is installed.">
+                                    <attValue code="30007776" text="FREESTANDING (MOVABLE)" definition=""/>
+                                    <attValue code="30008573" text="TABLE TOP" definition=""/>
+                                    <attValue code="30002515" text="UNCLASSIFIED"
+                                              definition="This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat&apos;s cheese - goat&apos;s cheeses is often generically labelled and cannot be further classified."/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                </attType>
+                            </brick>
+                            <brick code="10001695" text="Pottery Wheels (Powered)"
+                                   definition="Includes any products that may be described/observed as a powered revolving wheel on which crafted pottery products are formed and shaped. Excludes products such as non-powered Pottery Wheels, which are typically foot operated.">
+                                <attType code="20001354" text="If With Pedal"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify whether the product has pedal control.">
+                                    <attValue code="30002960" text="NO" definition=""/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                    <attValue code="30002654" text="YES" definition=""/>
+                                </attType>
+                                <attType code="20001353" text="Installation Type"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify how/where the product is installed.">
+                                    <attValue code="30007776" text="FREESTANDING (MOVABLE)" definition=""/>
+                                    <attValue code="30008573" text="TABLE TOP" definition=""/>
+                                    <attValue code="30002515" text="UNCLASSIFIED"
+                                              definition="This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat&apos;s cheese - goat&apos;s cheeses is often generically labelled and cannot be further classified."/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                </attType>
+                            </brick>
+                            <brick code="10001692" text="Sculptors Tools (Non Powered)"
+                                   definition="Includes any products that may be described/ observed as a non-powered sculptor&apos;s tool used in the craft of sculpting. Includes products such as Sculptors&apos; Chisels, Sculptors&apos; Hammers, Clay Guns and Pottery Brushes. Specifically excludes DIY Tools. Excludes products such as powered Sculptors Tools.">
+                                <attType code="20001351" text="Type of Sculptors Tool (Non Powered)"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify the type of non-powered sculptors tool.">
+                                    <attValue code="30008553" text="CLAY GUN" definition=""/>
+                                    <attValue code="30008554" text="CLAY/POTTERY SPATULA" definition=""/>
+                                    <attValue code="30008555" text="DIPPING TONGS" definition=""/>
+                                    <attValue code="30008556" text="FETTLING KNIFE" definition=""/>
+                                    <attValue code="30008557" text="POTTERY BRUSH" definition=""/>
+                                    <attValue code="30008559" text="POTTERY RIB" definition=""/>
+                                    <attValue code="30008560" text="SCULPTORS CHISEL" definition=""/>
+                                    <attValue code="30008561" text="SCULPTORS GOUGE" definition=""/>
+                                    <attValue code="30008562" text="SCULPTORS HAMMER" definition=""/>
+                                    <attValue code="30008563" text="SCULPTORS MALLET" definition=""/>
+                                    <attValue code="30008564" text="SCULPTORS RASP" definition=""/>
+                                    <attValue code="30008565" text="SCULPTORS RIFFLERS" definition=""/>
+                                    <attValue code="30002515" text="UNCLASSIFIED"
+                                              definition="This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat&apos;s cheese - goat&apos;s cheeses is often generically labelled and cannot be further classified."/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                    <attValue code="30008566" text="WIRE END MODELLING TOOL" definition=""/>
+                                </attType>
+                            </brick>
+                            <brick code="10001693" text="Sculptors Tools (Powered)"
+                                   definition="Includes any products that may be described/observed as a powered tool specifically designed to aid the sculpturing craft. Includes products such as Pneumatic Hammers and Pneumatic Grinders. Specifically excludes DIY Tools. Excludes non-powered Sculptors&apos; Tools.">
+                                <attType code="20001352" text="Type of Sculptors Tool (Powered)"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify the type of powered sculptors tool.">
+                                    <attValue code="30008568" text="PNEUMATIC GRINDER" definition=""/>
+                                    <attValue code="30008567" text="PNEUMATIC HAMMER" definition=""/>
+                                    <attValue code="30008569" text="PNEUMATIC HOSE KIT" definition=""/>
+                                    <attValue code="30002515" text="UNCLASSIFIED"
+                                              definition="This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat&apos;s cheese - goat&apos;s cheeses is often generically labelled and cannot be further classified."/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                </attType>
+                            </brick>
+                            <brick code="10001691" text="Sculptors/Pottery Craft Materials"
+                                   definition="Includes any products that may be described/observed as material used to craft sculptures and pottery items. Includes products that may require mixing with water before use. Includes products such as Alabaster, Clay and Marble. Excludes products such as Sculptors&apos; Tools, Kilns and Pottery Wheels.">
+                                <attType code="20001350" text="Type of Sculptors/Pottery Craft Material"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify the type of sculptors or pottery supply material.">
+                                    <attValue code="30008545" text="AIR HARDENING CLAY" definition=""/>
+                                    <attValue code="30008546" text="CARVING MARBLE" definition=""/>
+                                    <attValue code="30012013" text="FOAM MOULDING" definition=""/>
+                                    <attValue code="30008364" text="MODELLING CLAY" definition=""/>
+                                    <attValue code="30008547" text="SALT DOUGH" definition=""/>
+                                    <attValue code="30008548" text="SCULPTORS ALABASTER" definition=""/>
+                                    <attValue code="30008549" text="SCULPTORS CALCITE" definition=""/>
+                                    <attValue code="30008550" text="SCULPTORS LIMESTONE" definition=""/>
+                                    <attValue code="30008551" text="SCULPTORS SOAPSTONE" definition=""/>
+                                    <attValue code="30008552" text="SCULPTORS STEATITE" definition=""/>
+                                    <attValue code="30002515" text="UNCLASSIFIED"
+                                              definition="This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat&apos;s cheese - goat&apos;s cheeses is often generically labelled and cannot be further classified."/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                    <attValue code="30012012" text="WIRE MESH MOULDING" definition=""/>
+                                </attType>
+                            </brick>
+                            <brick code="10001698" text="Sculptors/Pottery Craft Supplies Other"
+                                   definition="Includes any products that may be described/observed as Sculptors/Pottery Craft Supplies, where the user of the schema is not able to classify the products in existing bricks within the schema. Excludes all currently classified Sculptors/Pottery Craft Supplies.">
+                            </brick>
+                            <brick code="10001697" text="Sculptors/Pottery Craft Supplies Variety Packs"
+                                   definition="Includes any products that can be described/observed as two or more distinct Sculptors/Pottery Craft Supplies products sold together, which exist within the schema belonging to different bricks but to the same class, that is, two or more products contained within the same pack, which cross bricks within the Sculptors/Pottery Craft Supplies class. Includes products such as Clay sold with Clay Tools. Items received free with purchases should be removed from the classification decision-making process. Excludes products such as Clay sold with Clay Painting Supplies.">
+                            </brick>
+                        </class>
+                        <class code="70010400" text="Needlework/Toy Making Craft Supplies" definition="">
+                            <brick code="10005713" text="Foam Craft Materials"
+                                   definition="Includes any products that may be described/observed as a textile foam material used in needlework and toy making crafts. The product can be cut, shaped or moulded to create picture frames, toys and artwork. Includes products such as foam sheets, artistic foam cut-outs and three-dimensional, moulded foam. Excludes products such as upholstery foam and foam packaging products.">
+                                <attType code="20000352" text="Formation"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify the state in which the product is sold.">
+                                    <attValue code="30013178" text="3-D SHAPE" definition=""/>
+                                    <attValue code="30013310" text="ABSTRACT CUT-OUT" definition=""/>
+                                    <attValue code="30013177" text="ALPHABET CUT-OUT" definition=""/>
+                                    <attValue code="30004666" text="SHEET" definition=""/>
+                                    <attValue code="30002515" text="UNCLASSIFIED"
+                                              definition="This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat&apos;s cheese - goat&apos;s cheeses is often generically labelled and cannot be further classified."/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                </attType>
+                            </brick>
+                            <brick code="10001700" text="Lace/Ribbons/Cords/Braids"
+                                   definition="Includes any products that may be described/observed as textile-based adornments for fabric products, which are used in needlework craft. Excludes products such as Thread, Yarn, Shoe Laces and Decorative Products worn in a person&apos;s hair.">
+                                <attType code="20001356" text="Type of Lace/Ribbon/Cord/Braid"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify the type of lace, ribbon, cord or braid.">
+                                    <attValue code="30008576" text="BRAID" definition=""/>
+                                    <attValue code="30008577" text="CORD" definition=""/>
+                                    <attValue code="30014363" text="LACE FABRIC/TRIMMING" definition=""/>
+                                    <attValue code="30010865" text="NEEDLEWORK RIBBON" definition=""/>
+                                    <attValue code="30002515" text="UNCLASSIFIED"
+                                              definition="This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat&apos;s cheese - goat&apos;s cheeses is often generically labelled and cannot be further classified."/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                </attType>
+                            </brick>
+                            <brick code="10001714" text="Needlework Accessories"
+                                   definition="Includes any products that can be described/observed as a device designed to enhance needlework craft. Includes products such as Boning/Wiring and Sequins. Excludes products such as Clothing Adornment classified in Clothing and Beads that are classified in Jewellery Craft Supplies.">
+                                <attType code="20001371" text="Type of Needlework Accessory"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify the type of needlework accessory.">
+                                    <attValue code="30017186" text="ANIMAL HAIR AS FILLER MATERIAL" definition=""/>
+                                    <attValue code="30008600" text="BONING/WIRING" definition=""/>
+                                    <attValue code="30013179" text="CHENILLE STEM" definition=""/>
+                                    <attValue code="30010873" text="ELASTIC CORD" definition=""/>
+                                    <attValue code="30008611" text="EYELETS" definition=""/>
+                                    <attValue code="30010874" text="FABRIC STIFFENING" definition=""/>
+                                    <attValue code="30008612" text="FEATHERS" definition=""/>
+                                    <attValue code="30008616" text="PADDING/STUFFING/WADDING" definition=""/>
+                                    <attValue code="30008251" text="POM POM" definition=""/>
+                                    <attValue code="30010861" text="SEQUINS" definition=""/>
+                                    <attValue code="30017187" text="SYNTHETIC FILLER MATERIAL" definition=""/>
+                                    <attValue code="30002515" text="UNCLASSIFIED"
+                                              definition="This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat&apos;s cheese - goat&apos;s cheeses is often generically labelled and cannot be further classified."/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                </attType>
+                            </brick>
+                            <brick code="10001699" text="Needlework Fabrics/Textiles"
+                                   definition="Includes any products that may be described/observed as fabrics or textiles used in needlework craft. Includes products such as Silk Fabric, Synthetic/Plastic Fabric, Fur Fabric and Leather Fabric Excludes products such as Ribbons and Yarn as well as Fabric/Textile Furnishings.">
+                                <attType code="20001355" text="Type of Needlework Fabric/Textile"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify the type of needlework fabric or textile.">
+                                    <attValue code="30000720" text="COMBINATION" definition=""/>
+                                    <attValue code="30010866" text="COTTON FABRIC" definition=""/>
+                                    <attValue code="30017181" text="DAMASK" definition=""/>
+                                    <attValue code="30017182" text="FLAT WOVEN FABRIC" definition=""/>
+                                    <attValue code="30010871" text="FUR FABRIC" definition=""/>
+                                    <attValue code="30017183" text="KNITTED FABRIC" definition=""/>
+                                    <attValue code="30010870" text="LEATHER FABRIC" definition=""/>
+                                    <attValue code="30010868" text="LINEN FABRIC" definition=""/>
+                                    <attValue code="30010867" text="SILK FABRIC" definition=""/>
+                                    <attValue code="30010869" text="SYNTHETIC/PLASTIC FABRIC" definition=""/>
+                                    <attValue code="30017184" text="TERRY CLOTH" definition=""/>
+                                    <attValue code="30002515" text="UNCLASSIFIED"
+                                              definition="This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat&apos;s cheese - goat&apos;s cheeses is often generically labelled and cannot be further classified."/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                    <attValue code="30017185" text="VELOUR" definition=""/>
+                                    <attValue code="30010872" text="WOOLLEN FABRIC" definition=""/>
+                                </attType>
+                            </brick>
+                            <brick code="10001710" text="Needlework Fasteners"
+                                   definition="Includes any products that may be described/observed as an item designed to hold together layers of fabric when crafting needlework. Includes products such as Buttons, Hooks, Press-Studs, Zips and Velcro Tape. Excludes products such as Adhesives and Decorative Accessories.">
+                                <attType code="20001367" text="Type of Needlework Fastener"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify the type of needlework fastener.">
+                                    <attValue code="30008603" text="BUTTON" definition=""/>
+                                    <attValue code="30008604" text="HOOK" definition=""/>
+                                    <attValue code="30008605" text="PRESS-STUDS" definition=""/>
+                                    <attValue code="30002515" text="UNCLASSIFIED"
+                                              definition="This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat&apos;s cheese - goat&apos;s cheeses is often generically labelled and cannot be further classified."/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                    <attValue code="30008606" text="VELCRO TAPE" definition=""/>
+                                    <attValue code="30007404" text="ZIP" definition=""/>
+                                </attType>
+                            </brick>
+                            <brick code="10001702" text="Needlework Hand/Machine Tools"
+                                   definition="Includes any products that may be described/observed as a tool to enable the craft of needlework by hand or machine. Includes products such as Hand Sewing Needles, Hand Knitting Needles, Sewing Machine Needles, Crochet Hooks and Pins. Excludes Needlework Accessories and any tools for crafts other than needlework.">
+                                <attType code="20001358" text="Type of Needlework Tool"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify the type of needlework tool.">
+                                    <attValue code="30008580" text="CROCHET HOOK" definition=""/>
+                                    <attValue code="30010864" text="EMBROIDERY PUNCH NEEDLE" definition=""/>
+                                    <attValue code="30010863" text="EYELET PUNCH" definition=""/>
+                                    <attValue code="30008581" text="HAND KNITTING NEEDLE" definition=""/>
+                                    <attValue code="30008585" text="HAND SEWING NEEDLE" definition=""/>
+                                    <attValue code="30010875" text="MACRAME ROD" definition=""/>
+                                    <attValue code="30011420" text="MEASURING TAPE (NEEDLEWORK)" definition=""/>
+                                    <attValue code="30008589" text="NEEDLEWORK SCISSORS" definition=""/>
+                                    <attValue code="30008583" text="PIN" definition=""/>
+                                    <attValue code="30012011" text="PINKING SHEARS" definition=""/>
+                                    <attValue code="30008584" text="RUG HOOK" definition=""/>
+                                    <attValue code="30011675" text="SEWING MACHINE BOBBIN" definition=""/>
+                                    <attValue code="30011674" text="SEWING MACHINE NEEDLE" definition=""/>
+                                    <attValue code="30008626" text="TAPESTRY/EMBROIDERY FRAME" definition=""/>
+                                    <attValue code="30008628" text="THIMBLE" definition=""/>
+                                    <attValue code="30002515" text="UNCLASSIFIED"
+                                              definition="This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat&apos;s cheese - goat&apos;s cheeses is often generically labelled and cannot be further classified."/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                </attType>
+                            </brick>
+                            <brick code="10001705" text="Needlework Marking Equipment"
+                                   definition="Includes any products that may be described/observed as an item for marking fabric to facilitate needlework craft. Includes products such as Needlework Fabric Marking Pencils and Haberdashery Chalk. Excludes products such as Artists Chalks, Stationery Pens and Markers.">
+                                <attType code="20001361" text="Type of Fabric Marking Equipment"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify the type of fabric marking equipment.">
+                                    <attValue code="30008593" text="HABERDASHERY CHALK" definition=""/>
+                                    <attValue code="30008594" text="NEEDLEWORK FABRIC MARKING PENCIL" definition=""/>
+                                    <attValue code="30002515" text="UNCLASSIFIED"
+                                              definition="This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat&apos;s cheese - goat&apos;s cheeses is often generically labelled and cannot be further classified."/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                </attType>
+                            </brick>
+                            <brick code="10001712" text="Needlework Storage"
+                                   definition="Includes any products that may be described/observed as an item specifically designed to store needlework and toy-making materials. Includes products such as Thread Boxes and Needle Cases. Excludes products such as Toy Display Units.">
+                                <attType code="20001369" text="Type of Needlework Storage Product"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify the type of needlework or toy making storage product.">
+                                    <attValue code="30010877" text="KNITTING BAG" definition=""/>
+                                    <attValue code="30010876" text="MULTI-PURPOSE SEWING BOX" definition=""/>
+                                    <attValue code="30008619" text="SEWING NEEDLE CASE" definition=""/>
+                                    <attValue code="30008620" text="SEWING THREAD BOX" definition=""/>
+                                    <attValue code="30002515" text="UNCLASSIFIED"
+                                              definition="This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat&apos;s cheese - goat&apos;s cheeses is often generically labelled and cannot be further classified."/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                </attType>
+                            </brick>
+                            <brick code="10001713" text="Needlework Templates"
+                                   definition="Includes any products that may be described/observed as pre-printed designs to be followed or copied by the user to create a piece of needlework. These designs may be printed on material to be stitched over, or may be paper patterns used as guides for cutting fabric or could be cut-out fabric shapes that are stitched onto a piece of crafted needlework. Includes products such as Embroidery Templates, Knitting Templates and Paper Clothing Patterns. Excludes products such as computerised Needlework Templates for powered Knitting/Sewing Machines and Weaving Patterns.">
+                                <attType code="20001370" text="Type of Needlework Template"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify the type of needlework template.">
+                                    <attValue code="30008621" text="EMBROIDERY TEMPLATE" definition=""/>
+                                    <attValue code="30008623" text="KNITTING/CROCHET TEMPLATE" definition=""/>
+                                    <attValue code="30008624" text="NEEDLEWORK STENCIL" definition=""/>
+                                    <attValue code="30008622" text="PAPER CLOTHING PATTERN" definition=""/>
+                                    <attValue code="30008625" text="PATCHWORK TEMPLATE" definition=""/>
+                                    <attValue code="30002515" text="UNCLASSIFIED"
+                                              definition="This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat&apos;s cheese - goat&apos;s cheeses is often generically labelled and cannot be further classified."/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                </attType>
+                            </brick>
+                            <brick code="10001701" text="Needlework Threads"
+                                   definition="Includes any products that may be described/observed as a spun cord of twisted fibres, typically of cotton, silk, wool or nylon, specifically designed for needlework craft. Includes products such as Sewing Thread, Embroidery Thread and Tapestry Thread. Excludes products such as Weaving Yarns, Ribbon and Lace.">
+                                <attType code="20000794" text="Type of Material"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify the type of material from which the product is made.">
+                                    <attValue code="30000720" text="COMBINATION" definition=""/>
+                                    <attValue code="30010746" text="COTTON" definition=""/>
+                                    <attValue code="30007840" text="LINEN" definition=""/>
+                                    <attValue code="30009998" text="SILK" definition=""/>
+                                    <attValue code="30010879" text="SYNTHETIC" definition=""/>
+                                    <attValue code="30002515" text="UNCLASSIFIED"
+                                              definition="This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat&apos;s cheese - goat&apos;s cheeses is often generically labelled and cannot be further classified."/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                    <attValue code="30005044" text="WOOL" definition=""/>
+                                </attType>
+                                <attType code="20001357" text="Type of Needlework Thread"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify the type of needlework thread.">
+                                    <attValue code="30010228" text="EMBROIDERY THREAD" definition=""/>
+                                    <attValue code="30010227" text="SEWING THREAD" definition=""/>
+                                    <attValue code="30010229" text="TAPESTRY THREAD" definition=""/>
+                                    <attValue code="30002515" text="UNCLASSIFIED"
+                                              definition="This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat&apos;s cheese - goat&apos;s cheeses is often generically labelled and cannot be further classified."/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                </attType>
+                            </brick>
+                            <brick code="10001716" text="Needlework/Toy Making Craft Supplies Other"
+                                   definition="Includes any products that may be described/observed as Needlework/Toy Making Craft Supplies, where the user of the schema is not able to classify the products in existing bricks within the schema. Excludes all currently classified Needlework/Toy Making Craft Supplies.">
+                            </brick>
+                            <brick code="10001715" text="Needlework/Toy Making Craft Supplies Variety Packs"
+                                   definition="Includes any products that can be described/observed as two or more distinct Needlework/Toy Making Craft Supplies sold together, which exist within the schema belonging to different bricks but to the same class, that is, two or more products contained within the same pack, which cross bricks within the Needlework/Toy Making Craft Supplies class. Includes products such as Needles sold with Thread. Items received free with purchases should be removed from the classification decision-making process. Excludes products such as Toy Making Accessories and Doll variety packs.">
+                            </brick>
+                            <brick code="10001706" text="Sewing/Knitting Machinery (Non Powered)"
+                                   definition="Includes any products that may be described/observed as a non-powered machine for the craft of sewing or knitting. Excludes products such as powered Sewing/Knitting Machinery.">
+                                <attType code="20001362" text="Type of Sewing/Knitting Machinery (Non Powered)"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify the type of non-powered sewing or knitting machinery.">
+                                    <attValue code="30008596" text="KNITTING MACHINE (NON POWERED)" definition=""/>
+                                    <attValue code="30008598" text="SEWING MACHINE (NON POWERED)" definition=""/>
+                                    <attValue code="30002515" text="UNCLASSIFIED"
+                                              definition="This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat&apos;s cheese - goat&apos;s cheeses is often generically labelled and cannot be further classified."/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                </attType>
+                            </brick>
+                            <brick code="10001707" text="Sewing/Knitting Machinery (Powered)"
+                                   definition="Includes any products that may be described/observed as a powered machine for the craft of sewing or knitting. Includes products such as powered Sewing Machines, Knitting Machines and Overlockers. Excludes products such as non-powered Sewing/Knitting Machinery.">
+                                <attType code="20001364" text="If Computer Controlled"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify if the product is computer controlled.">
+                                    <attValue code="30002960" text="NO" definition=""/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                    <attValue code="30002654" text="YES" definition=""/>
+                                </attType>
+                                <attType code="20001363" text="Type of Sewing/Knitting Machinery (Powered)"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify the type of powered sewing or knitting machinery.">
+                                    <attValue code="30014373" text="KNITTING MACHINE (POWERED)" definition=""/>
+                                    <attValue code="30008597" text="OVERLOCKER (POWERED)" definition=""/>
+                                    <attValue code="30014374" text="SEWING MACHINE (POWERED)" definition=""/>
+                                    <attValue code="30002515" text="UNCLASSIFIED"
+                                              definition="This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat&apos;s cheese - goat&apos;s cheeses is often generically labelled and cannot be further classified."/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                </attType>
+                            </brick>
+                            <brick code="10001711" text="Toy Making Accessories"
+                                   definition="Includes any products that may be described/observed as an accessory that enhances or completes the crafting of a toy. Includes products such as Toy/Doll Eyes and Noses. Excludes products such as Ribbons, Lace, Cord, Braids and Zips.">
+                                <attType code="20001368" text="Type of Toy Making Accessory"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify the type of toy making accessory.">
+                                    <attValue code="30008618" text="DOLL/TOY EYES/NOSES/PAWS" definition=""/>
+                                    <attValue code="30008610" text="DOLL/TOY HAIR" definition=""/>
+                                    <attValue code="30008617" text="DOLL/TOY JOINTS" definition=""/>
+                                    <attValue code="30008614" text="MOULDED DOLL/TOY FACE" definition=""/>
+                                    <attValue code="30002515" text="UNCLASSIFIED"
+                                              definition="This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat&apos;s cheese - goat&apos;s cheeses is often generically labelled and cannot be further classified."/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                </attType>
+                            </brick>
+                        </class>
+                        <class code="70010500" text="Jewellery Craft Supplies" definition="">
+                            <brick code="10001718" text="Jewellery Craft Accessories"
+                                   definition="Includes any products that can be described/observed as an item designed to facilitate the crafting of jewellery. Includes products such as Brooch Fittings and Necklace Fittings. Excludes products such as Beads.">
+                                <attType code="20002029" text="Type of Jewellery Craft Accessory"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify the type of jewellery craft accessory.">
+                                    <attValue code="30008634" text="BROOCH FITTINGS" definition=""/>
+                                    <attValue code="30008635" text="EARRING FITTINGS" definition=""/>
+                                    <attValue code="30008639" text="NECKLACE FITTINGS" definition=""/>
+                                    <attValue code="30010855" text="RING FITTINGS" definition=""/>
+                                    <attValue code="30002515" text="UNCLASSIFIED"
+                                              definition="This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat&apos;s cheese - goat&apos;s cheeses is often generically labelled and cannot be further classified."/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                </attType>
+                            </brick>
+                            <brick code="10001717" text="Jewellery Craft Materials"
+                                   definition="Includes any products that can be described/observed as the primary ornamental materials used in the craft of making jewellery. Includes products such as Man-Made Beads, Natural Stone Pieces and Mother of Pearl Inlay. Excludes products such as Jewellery Fittings.">
+                                <attType code="20001372" text="Type of Jewellery Craft Material"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify the type of primary ornamental material used in the craft of making jewellery.">
+                                    <attValue code="30008629" text="MAN-MADE BEADS" definition=""/>
+                                    <attValue code="30008630" text="MOTHER-OF-PEARL INLAY" definition=""/>
+                                    <attValue code="30008631" text="NATURAL STONE PIECES" definition=""/>
+                                    <attValue code="30002515" text="UNCLASSIFIED"
+                                              definition="This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat&apos;s cheese - goat&apos;s cheeses is often generically labelled and cannot be further classified."/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                </attType>
+                            </brick>
+                            <brick code="10001720" text="Jewellery Craft Supplies Other"
+                                   definition="Includes any products that may be described/observed as Jewellery Craft Supplies, where the user of the schema is not able to classify the products in existing bricks within the schema. Excludes all currently classified Jewellery Craft Supplies.">
+                            </brick>
+                            <brick code="10001719" text="Jewellery Craft Supplies Variety Packs"
+                                   definition="Includes any products that can be described/observed as two or more distinct Jewellery Craft Supplies products sold together, which exist within the schema belonging to different bricks but to the same class, that is, two or more products contained within the same pack, which cross bricks within the Jewellery Craft Supplies class. Includes products such as Beads sold with Necklace Fittings. Items received free with purchases should be removed from the classification decision-making process. Excludes products such as Jewellery Craft Supplies sold with Instruction Books.">
+                            </brick>
+                        </class>
+                        <class code="70010600" text="Basketry Craft Supplies" definition="">
+                            <brick code="10001723" text="Basketry Craft Accessories"
+                                   definition="Includes any products that may be described/observed as items that facilitate the craft of making baskets. Includes products such as Basket Handles, Basket Bases and Basket Hoops. Excludes products such as Basketry Craft Materials and Basketry Tools.">
+                                <attType code="20001375" text="Type of Basketry Craft Accessory"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify the type of basketry craft accessory.">
+                                    <attValue code="30008650" text="BASKET BASE" definition=""/>
+                                    <attValue code="30008651" text="BASKET BUCKLE" definition=""/>
+                                    <attValue code="30008652" text="BASKET HANDLE" definition=""/>
+                                    <attValue code="30008653" text="BASKET HOOP" definition=""/>
+                                    <attValue code="30002515" text="UNCLASSIFIED"
+                                              definition="This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat&apos;s cheese - goat&apos;s cheeses is often generically labelled and cannot be further classified."/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                </attType>
+                            </brick>
+                            <brick code="10001721" text="Basketry Craft Materials"
+                                   definition="Includes any products that may be described/observed as materials that are specifically designed for use in the craft of making baskets. Includes products such as Cane, Raffia, Paper Rope and Sea Grass. Excludes products such as Basket Hoops, Basket Bases and Basket Handles.">
+                                <attType code="20001373" text="Type of Basketry Craft Material"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify the type of basketry craft material.">
+                                    <attValue code="30008640" text="CANE" definition=""/>
+                                    <attValue code="30008642" text="PAPER ROPE" definition=""/>
+                                    <attValue code="30008643" text="RAFFIA" definition=""/>
+                                    <attValue code="30008645" text="REED" definition=""/>
+                                    <attValue code="30008641" text="RUSH CORD" definition=""/>
+                                    <attValue code="30008646" text="SEA GRASS" definition=""/>
+                                    <attValue code="30006923" text="STRAW" definition=""/>
+                                    <attValue code="30002515" text="UNCLASSIFIED"
+                                              definition="This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat&apos;s cheese - goat&apos;s cheeses is often generically labelled and cannot be further classified."/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                </attType>
+                            </brick>
+                            <brick code="10001725" text="Basketry Craft Supplies Other"
+                                   definition="Includes any products that may be described/observed as Basketry Craft Supplies products, where the user of the schema is not able to classify the products in existing bricks within the schema. Excludes all currently classified Basketry Craft Supplies.">
+                            </brick>
+                            <brick code="10001724" text="Basketry Craft Supplies Variety Packs"
+                                   definition="Includes any products that can be described/observed as two or more distinct Basketry Craft Supplies products sold together, which exist within the schema belonging to different bricks but to the same class, that is, two or more products contained within the same pack, which cross bricks within the Basketry Craft Supplies class. Includes products such as Basketry Craft Materials sold with Basketry Craft Accessories. Items received free with purchases should be removed from the classification decision-making process. Excludes products such as Basketry Craft Tools sold with any other Craft Tools.">
+                            </brick>
+                            <brick code="10001722" text="Basketry Craft Tools (Non Powered)"
+                                   definition="Includes any products that may be described/observed as non-powered tools specifically designed for the craft of making baskets. Includes products such as Basketry Weaving Tools, Basketry Clamps and Basketry Self-Locking Ties. Specifically excludes DIY Tools. Excludes all Craft Tools not specifically designed for Basketry Craft.">
+                                <attType code="20001374" text="Type of Basketry Craft Tool (Non Powered)"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify the type of non-powered basketry craft tool.">
+                                    <attValue code="30008648" text="BASKETRY CLAMP" definition=""/>
+                                    <attValue code="30008647" text="BASKETRY SELF-LOCKING TIE" definition=""/>
+                                    <attValue code="30008649" text="BASKETRY WEAVING TOOL" definition=""/>
+                                    <attValue code="30002515" text="UNCLASSIFIED"
+                                              definition="This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat&apos;s cheese - goat&apos;s cheeses is often generically labelled and cannot be further classified."/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                </attType>
+                            </brick>
+                        </class>
+                        <class code="70010700" text="Paper/Card Making Craft Supplies" definition="">
+                            <brick code="10001726" text="Paper Craft Tools (Non Powered)"
+                                   definition="Includes any products that may be described/observed as a non-powered tool specifically designed for use in paper craft. Includes products such as Paper Crimpers. Excludes products such as Stationery Scissors.">
+                                <attType code="20001376" text="Type of Paper Craft Tool (Non Powered)"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify the type of non-powered paper craft tool.">
+                                    <attValue code="30012010" text="PAPER CRAFT SCISSORS" definition=""/>
+                                    <attValue code="30008655" text="PAPER CRIMPER" definition=""/>
+                                    <attValue code="30008656" text="QUILLING TOOL" definition=""/>
+                                    <attValue code="30002515" text="UNCLASSIFIED"
+                                              definition="This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat&apos;s cheese - goat&apos;s cheeses is often generically labelled and cannot be further classified."/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                </attType>
+                            </brick>
+                            <brick code="10001730" text="Paper Craft/Card Making Supplies Other"
+                                   definition="Includes any products that may be described/observed as Paper Craft and Card Making Supplies products, where the user of the schema is not able to classify the products in existing bricks within the schema. Excludes all currently classified Paper Craft and Card Making Supplies products.">
+                            </brick>
+                            <brick code="10001729" text="Paper Craft/Card Making Supplies Variety Packs"
+                                   definition="Includes any products that can be described/observed as two or more distinct Paper Craft and Card Making Supplies products sold together, which exist within the schema belonging to different bricks but to the same class, that is, two or more products contained within the same pack, which cross bricks within the Paper Craft and Card Making Supplies class. Includes products such as Paper Craft Quilling Strip sold with a Quilling Tool. Items received free with purchases should be removed from the classification decision-making process. Excludes products such as Card sold with Paper Craft and Card Making Supplies.">
+                            </brick>
+                            <brick code="10001727" text="Paper/Card Making Craft Accessories"
+                                   definition="Includes any products that may be described/observed as an item designed to facilitate or enhance the craft of making paper or card or manually constructing a greeting card. Includes products such as Music Button Greeting Card Inserts and Quilling Strips. Excludes products such as industrially manufactured Paper.">
+                                <attType code="20001377" text="Type of Paper/Card Making Craft Accessory"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify the type of accessory used in the craft of making paper or card or an item used to accessorise a manually crafted greeting card.">
+                                    <attValue code="30010878" text="GLITTER DUST" definition=""/>
+                                    <attValue code="30008657" text="MUSIC BUTTON CARD INSERT" definition=""/>
+                                    <attValue code="30008658" text="QUILLING STRIP" definition=""/>
+                                    <attValue code="30002515" text="UNCLASSIFIED"
+                                              definition="This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat&apos;s cheese - goat&apos;s cheeses is often generically labelled and cannot be further classified."/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                </attType>
+                            </brick>
+                        </class>
+                        <class code="70010800" text="Glasswork/Enamelling/Marquetry Craft Supplies" definition="">
+                            <brick code="10001732" text="Glasswork Craft Tools (Powered)"
+                                   definition="Includes any products that may be described/observed as a powered tool for use in glasswork craft. Includes products such as Glass Burners. Excludes products such as Sculpture/Pottery Kilns.">
+                                <attType code="20001380" text="Type of Glasswork Craft Tool (Powered)"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify the type of powered glasswork craft tool.">
+                                    <attValue code="30008666" text="BEAD BURNER" definition=""/>
+                                    <attValue code="30008668" text="GLASS BURNER" definition=""/>
+                                    <attValue code="30002515" text="UNCLASSIFIED"
+                                              definition="This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat&apos;s cheese - goat&apos;s cheeses is often generically labelled and cannot be further classified."/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                </attType>
+                            </brick>
+                            <brick code="10001731" text="Glasswork/Enamelling/Marquetry Craft Materials"
+                                   definition="Includes any products that may be described/observed as materials for use in the craft of glasswork, enamelling or marquetry. Includes products such as Glass Shapes and Inlay Marquetry Strips. Excludes products such as Glasswork Tools and Sculpting Materials.">
+                                <attType code="20001379" text="Type of Glasswork/Enamelling/Marquetry Craft Material"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify the type of glasswork, enamelling or marquetry crafting material.">
+                                    <attValue code="30008669" text="COPPER FOIL" definition=""/>
+                                    <attValue code="30008662" text="ENAMEL PIECES" definition=""/>
+                                    <attValue code="30008663" text="GLASS SHAPES" definition=""/>
+                                    <attValue code="30008664" text="INLAY MARQUETRY STRIPS" definition=""/>
+                                    <attValue code="30008671" text="LEAD CAME" definition=""/>
+                                    <attValue code="30008672" text="LEAD STRIP" definition=""/>
+                                    <attValue code="30002515" text="UNCLASSIFIED"
+                                              definition="This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat&apos;s cheese - goat&apos;s cheeses is often generically labelled and cannot be further classified."/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                </attType>
+                            </brick>
+                            <brick code="10001735" text="Glasswork/Enamelling/Marquetry Craft Supplies Other"
+                                   definition="Includes any products that may be described/observed as Glasswork/Enamelling/Marquetry Craft Supplies, where the user of the schema is not able to classify the products in existing bricks within the schema. Excludes all currently classified Glassworks/Enamelling/Marquetry Craft Supplies.">
+                            </brick>
+                            <brick code="10001734" text="Glasswork/Enamelling/Marquetry Craft Supplies Variety Packs"
+                                   definition="Includes any products that can be described/observed as two or more distinct Glasswork/Enamelling/Marquetry Craft Supplies products sold together, which exist within the schema belonging to different bricks but to the same class, that is, two or more products contained within the same pack, which cross bricks within the Glasswork/Enamelling/Marquetry Craft Supplies class. Includes products such as Glass Shapes sold with a Glass Burner. Items received free with purchases should be removed from the classification decision-making process. Excludes products such as Glasswork Craft Tools sold with Tools intended for other crafts.">
+                            </brick>
+                        </class>
+                        <class code="70010900" text="Candle/Soap Craft Supplies" definition="">
+                            <brick code="10001736" text="Candle/Soap Craft Materials"
+                                   definition="Includes any products that may be described/observed as materials specifically intended for crafting candles or soap. Includes products such as Honeycomb Sheets, Beeswax and Soap Cubes. Excludes products such as Candle and Soap Moulds as well as ready-made Candles and Soap.">
+                                <attType code="20001382" text="Type of Candle/Soap Craft Material"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify the type of candle or soap craft material.">
+                                    <attValue code="30008673" text="BEESWAX" definition=""/>
+                                    <attValue code="30008674" text="CANDLE WICKS" definition=""/>
+                                    <attValue code="30008675" text="HONEYCOMB SHEETS" definition=""/>
+                                    <attValue code="30008676" text="PARAFFIN WAX" definition=""/>
+                                    <attValue code="30002515" text="UNCLASSIFIED"
+                                              definition="This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat&apos;s cheese - goat&apos;s cheeses is often generically labelled and cannot be further classified."/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                    <attValue code="30008678" text="VEGETABLE WAX" definition=""/>
+                                </attType>
+                            </brick>
+                            <brick code="10001737" text="Candle/Soap Craft Moulds"
+                                   definition="Includes any products that may be described/observed as a cavity into which liquid soap or candle materials are placed to cool to give them a particular shape or form and used in the craft of making candles or soap. Excludes products such as Kitchen Moulds and Sculpting Moulds.">
+                            </brick>
+                            <brick code="10001741" text="Candle/Soap Craft Supplies Other"
+                                   definition="Includes any products that may be described/observed as Candle/Soap Craft Supplies, where the user of the schema is not able to classify the products in existing bricks within the schema. Excludes all currently classified Candle/Soap Craft Supplies.">
+                            </brick>
+                            <brick code="10001740" text="Candle/Soap Craft Supplies Variety Packs"
+                                   definition="Includes any products that can be described/observed as two or more distinct Candle/Soap Craft Supplies products sold together, which exist within the schema belonging to different bricks but to the same class, that is, two or more products contained within the same pack, which cross bricks within the Candle/Soap Craft Supplies class. Includes products such as Beeswax sold with Moulds. Items received free with purchases should be removed from the classification decision-making process. Excludes products such as Candle/Soap Craft Tools sold with other Craft Tools.">
+                            </brick>
+                            <brick code="10001738" text="Candle/Soap Craft Tools (Non Powered)"
+                                   definition="Includes any products that may be described/observed as a non-powered tool specifically designed for crafting candles and/or soap. Includes products such as Melting Pots, Mould Bases and Mould Clamps. Excludes products such as powered Candle/Soap Craft Tools.">
+                                <attType code="20001384" text="Type of Candle/Soap Craft Tool (Non Powered)"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify the type of non-powered candle or soap crafting tool.">
+                                    <attValue code="30013167" text="BASE LEVELLER" definition=""/>
+                                    <attValue code="30008684" text="MELTING POT" definition=""/>
+                                    <attValue code="30008685" text="MOULD BASE" definition=""/>
+                                    <attValue code="30008686" text="MOULD CLAMP" definition=""/>
+                                    <attValue code="30008687" text="MOULD PLUG" definition=""/>
+                                    <attValue code="30008688" text="MOULD SEALER" definition=""/>
+                                    <attValue code="30008689" text="TAPER DIPPING RING" definition=""/>
+                                    <attValue code="30002515" text="UNCLASSIFIED"
+                                              definition="This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat&apos;s cheese - goat&apos;s cheeses is often generically labelled and cannot be further classified."/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                    <attValue code="30008690" text="WICK HOLDER BAR" definition=""/>
+                                    <attValue code="30008691" text="WICKER REFILL" definition=""/>
+                                </attType>
+                            </brick>
+                            <brick code="10001739" text="Candle/Soap Craft Tools (Powered)"
+                                   definition="Includes any products that may be described/observed as a powered tool specifically designed for crafting candles and/or soap. Includes products such as powered Melters. Excludes products such as non-powered Candle/Soap Craft Tools.">
+                                <attType code="20001385" text="Type of Candle/Soap Craft Tool (Powered)"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify the type of powered candle or soap crafting tool.">
+                                    <attValue code="30008692" text="MELTER" definition=""/>
+                                    <attValue code="30002515" text="UNCLASSIFIED"
+                                              definition="This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat&apos;s cheese - goat&apos;s cheeses is often generically labelled and cannot be further classified."/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                </attType>
+                            </brick>
+                        </class>
+                        <class code="70011000" text="Wood Burning/Engraving Craft Supplies" definition="">
+                            <brick code="10001744" text="Wood Burning/Engraving Craft - Replacement Parts/Accessories"
+                                   definition="Includes any products that may be described/observed as a replacement part or accessory for Wood Burning and Engraving Craft Tools. Excludes products such as complete Wood Burning and Engraving tools.">
+                            </brick>
+                            <brick code="10001746" text="Wood Burning/Engraving Craft Supplies Other"
+                                   definition="Includes any products that may be described/observed as Wood Burning/Engraving Craft Supplies, where the user of the schema is not able to classify the products in existing bricks within the schema. Excludes all currently classified Wood Burning/Engraving Craft Supplies.">
+                            </brick>
+                            <brick code="10001743" text="Wood Burning/Engraving Craft Tools (Non Powered)"
+                                   definition="Includes any products that may be described/observed as a non-powered tool specifically designed for the craft of wood burning or engraving. Includes products such as a non-powered Wood Burning Branding Iron and an Engraving Chisel. Excludes products such as powered Wood Burning and Engraving Tools.">
+                                <attType code="20001386" text="Type of Wood Burning/Engraving Craft Tool"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify the type of wood-burning or engraving tool.">
+                                    <attValue code="30008697" text="ENGRAVING CHISEL (NON POWERED)" definition=""/>
+                                    <attValue code="30002515" text="UNCLASSIFIED"
+                                              definition="This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat&apos;s cheese - goat&apos;s cheeses is often generically labelled and cannot be further classified."/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                    <attValue code="30008694" text="WOOD BURNING BRANDING IRON (NON POWERED)"
+                                              definition=""/>
+                                </attType>
+                            </brick>
+                            <brick code="10001742" text="Wood Burning/Engraving Craft Tools (Powered)"
+                                   definition="Includes any products that may be described/observed as a powered tool specifically designed for the craft of burning wood or engraving. Includes products such as powered Wood Burners and powered Engravers. Excludes products such as non-powered Wood Burning and Engraving Tools.">
+                                <attType code="20000787" text="Power Source"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify different types of power source.">
+                                    <attValue code="30000289" text="BATTERY" definition=""/>
+                                    <attValue code="30009416" text="MAINS ELECTRICITY" definition=""/>
+                                    <attValue code="30002515" text="UNCLASSIFIED"
+                                              definition="This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat&apos;s cheese - goat&apos;s cheeses is often generically labelled and cannot be further classified."/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                </attType>
+                                <attType code="20001386" text="Type of Wood Burning/Engraving Craft Tool"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify the type of wood-burning or engraving tool.">
+                                    <attValue code="30014375" text="ENGRAVING CHISEL (POWERED)" definition=""/>
+                                    <attValue code="30002515" text="UNCLASSIFIED"
+                                              definition="This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat&apos;s cheese - goat&apos;s cheeses is often generically labelled and cannot be further classified."/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                    <attValue code="30014376" text="WOOD BURNING BRANDING IRON (POWERED)"
+                                              definition=""/>
+                                </attType>
+                            </brick>
+                        </class>
+                        <class code="70011100" text="Printing Craft Supplies" definition="">
+                            <brick code="10001753" text="Printing Craft Supplies Other"
+                                   definition="Includes any products that may be described/observed as Printing Craft Supplies, where the user of the schema is not able to classify the products in existing bricks within the schema. Excludes all currently classified Printing Craft Supplies.">
+                            </brick>
+                            <brick code="10001752" text="Printing Craft Supplies Variety Packs"
+                                   definition="Includes any products that can be described/observed as two or more distinct Printing Craft Supplies sold together, which exist within the schema belonging to different bricks but to the same class, that is, two or more products contained within the same pack, which cross bricks within the Printing Craft Supplies class. Includes products such as Printing Craft Materials sold with Printing Craft Tools. Items received free with purchases should be removed from the classification decision-making process. Excludes products such as Printing Craft Tools and Pre-Printed Materials variety packs.">
+                            </brick>
+                            <brick code="10001748" text="Printing Craft Tools"
+                                   definition="Includes any products that may be described/observed as tools specifically designed for use in the craft of printing. Includes products such as Barens, Rollers and Inking Plates. Excludes products such as Printing Presses.">
+                                <attType code="20001389" text="Type of Printing Craft Tool"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify the type of printing craft tool.">
+                                    <attValue code="30008702" text="BAREN" definition=""/>
+                                    <attValue code="30008703" text="BRAYER" definition=""/>
+                                    <attValue code="30008704" text="INKING PLATE" definition=""/>
+                                    <attValue code="30008706" text="RUBBING STICK" definition=""/>
+                                    <attValue code="30002515" text="UNCLASSIFIED"
+                                              definition="This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat&apos;s cheese - goat&apos;s cheeses is often generically labelled and cannot be further classified."/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                </attType>
+                            </brick>
+                            <brick code="10001750" text="Printing Press (Non Powered)"
+                                   definition="Includes any products that may be described/observed as a non-powered device used in printing craft to press a design onto fabric or paper. Excludes products such as powered Printing Presses.">
+                            </brick>
+                            <brick code="10001749" text="Printing Press (Powered)"
+                                   definition="Includes any products that may be described/observed as a powered device used in printing craft to press a design onto fabric or paper. Excludes products such as non-powered Printing Presses.">
+                            </brick>
+                        </class>
+                        <class code="70011200" text="Spinning/Weaving Craft Supplies" definition="">
+                            <brick code="10001757" text="Spinning/Weaving Craft - Replacement Parts/Accessories"
+                                   definition="Includes any products that may be described/observed as an accessory or replacement part for Spinning/Weaving Craft Supplies. Includes products such as Weaving Patterns and Loom Stands. Excludes products such as Weaving Yarn and Weaving Frames.">
+                                <attType code="20001395"
+                                         text="Type of Spinning/Weaving Craft Replacement Part/Accessory"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify the type of spinning or weaving supplies replacement part or accessory.">
+                                    <attValue code="30008722" text="LOOM BENCH" definition=""/>
+                                    <attValue code="30008723" text="LOOM STAND" definition=""/>
+                                    <attValue code="30008725" text="SHUTTLE" definition=""/>
+                                    <attValue code="30002515" text="UNCLASSIFIED"
+                                              definition="This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat&apos;s cheese - goat&apos;s cheeses is often generically labelled and cannot be further classified."/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                    <attValue code="30008726" text="WARP BEAM" definition=""/>
+                                    <attValue code="30008721" text="WEAVING COMB" definition=""/>
+                                    <attValue code="30005193" text="WEAVING NEEDLE" definition=""/>
+                                    <attValue code="30008727" text="WEAVING PATTERN" definition=""/>
+                                </attType>
+                            </brick>
+                            <brick code="10001758" text="Spinning/Weaving Craft Supplies Other"
+                                   definition="Includes any products that may be described/observed as Spinning/Weaving Craft Supplies, where the user of the schema is not able to classify the products in existing bricks within the schema. Excludes all currently classified Spinning/Weaving Craft Supplies.">
+                            </brick>
+                            <brick code="10001759" text="Spinning/Weaving Craft Supplies Variety Packs"
+                                   definition="Includes any products that may be described/observed as two or more distinct Spinning/Weaving Craft Supplies sold together, which exist within the schema belonging to different bricks but to the same class, that is, two or more products contained within the same pack, which cross bricks within the Spinning/Weaving Craft Supplies class. Includes products such as Weaving Looms and Weaving Yarn. Items received free with purchases should be removed from the classification decision-making process. Excludes products such as Wool Yarn and Knitting Needles.">
+                            </brick>
+                            <brick code="10001756" text="Spinning/Weaving Fibres/Yarns"
+                                   definition="Includes any products that may be described/observed as either fibres that can be spun into yarn, or already spun weaving yarn that is specifically designed to be used for woven crafts such as rug making. Includes products such as Wool Fibres that have not been spun and already spun Linen Yarn. Excludes products such as Needlework/Tapestry Threads, Weaving Frames and Patterns.">
+                                <attType code="20001928" text="Type of Fibre/Yarn"
+                                         definition="Indicates with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify the type of fibre or yarn used in the process of spinning or weaving.">
+                                    <attValue code="30010883" text="SPINNING FIBRE" definition=""/>
+                                    <attValue code="30002515" text="UNCLASSIFIED"
+                                              definition="This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat&apos;s cheese - goat&apos;s cheeses is often generically labelled and cannot be further classified."/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                    <attValue code="30010884" text="WEAVING YARN" definition=""/>
+                                </attType>
+                                <attType code="20000794" text="Type of Material"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify the type of material from which the product is made.">
+                                    <attValue code="30000720" text="COMBINATION" definition=""/>
+                                    <attValue code="30010746" text="COTTON" definition=""/>
+                                    <attValue code="30010882" text="HEMP" definition=""/>
+                                    <attValue code="30010748" text="JUTE" definition=""/>
+                                    <attValue code="30010880" text="LINEN/FLAX" definition=""/>
+                                    <attValue code="30009998" text="SILK" definition=""/>
+                                    <attValue code="30010879" text="SYNTHETIC" definition=""/>
+                                    <attValue code="30002515" text="UNCLASSIFIED"
+                                              definition="This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat&apos;s cheese - goat&apos;s cheeses is often generically labelled and cannot be further classified."/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                    <attValue code="30005044" text="WOOL" definition=""/>
+                                </attType>
+                            </brick>
+                            <brick code="10001755" text="Spinning/Weaving Machines (Non Powered)"
+                                   definition="Includes any products that may be described/observed as a non-powered device specifically designed, in the case of Spinning Machines, to spin threads to craft yarn, or, in the case of Weaving Machines, to weave yarn to craft fabrics or rugs. Includes products such as Weaving Frames and Floor Looms. Excludes products such as powered Looms and Spinning Wheels.">
+                                <attType code="20001393" text="Type of Spinning/Weaving Machine (Non Powered)"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify the type of non-powered spinning or weaving machine.">
+                                    <attValue code="30008714" text="FLOOR LOOM" definition=""/>
+                                    <attValue code="30008715" text="LAP LOOM" definition=""/>
+                                    <attValue code="30008716" text="TABLE LOOM" definition=""/>
+                                    <attValue code="30002515" text="UNCLASSIFIED"
+                                              definition="This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat&apos;s cheese - goat&apos;s cheeses is often generically labelled and cannot be further classified."/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                    <attValue code="30008717" text="WEAVING FRAME" definition=""/>
+                                </attType>
+                            </brick>
+                            <brick code="10001754" text="Spinning/Weaving Machines (Powered)"
+                                   definition="Includes any products that may be described/observed as a powered device specifically designed, in the case of Spinning Machines, to spin threads and thus craft yarn, or, in the case of Weaving Machines, to weave yarn to craft fabrics or rugs. Includes products such as an Electronic Loom and an Electronic Spinning Wheel. Excludes products such as non-powered Looms and Weaving Frames.">
+                                <attType code="20001392" text="Type of Spinning/Weaving Machine (Powered)"
+                                         definition="Indicates, with reference to the product branding, labelling or packaging, the descriptive term that is used by the product manufacturer to identify the type of powered spinning or weaving machine.">
+                                    <attValue code="30008711" text="ELECTRONIC LOOM" definition=""/>
+                                    <attValue code="30008712" text="ELECTRONIC SPINNING WHEEL" definition=""/>
+                                    <attValue code="30002515" text="UNCLASSIFIED"
+                                              definition="This term is used to describe those product attributes that are unable to be classified within their specific market; e.g. goat&apos;s cheese - goat&apos;s cheeses is often generically labelled and cannot be further classified."/>
+                                    <attValue code="30002518" text="UNIDENTIFIED"
+                                              definition="This term is used to describe those product attributes that are unidentifiable given existing or available product information."/>
+                                </attType>
+                            </brick>
+                        </class>
+                        <class code="70011300" text="Arts/Crafts Variety Packs" definition="">
+                            <brick code="10001760" text="Arts/Crafts Variety Packs"
+                                   definition="Includes any products that may be described/observed as two or more distinct Arts and Crafts products sold together, which exist within the schema but belong to different classes, that is, two or more products contained within the same pack, which cross classes within the Arts and Crafts Family. Includes products such as Needlework Supplies sold with Beads. Items received free with purchases should be removed from the classification decision- making process. Excludes products such as Printmaking equipment sold with Airbrushing Supplies and Artists Supplies sold with Stationery.">
+                            </brick>
+                        </class>
+                    </family>
+                </segment>
+            </schema>
+        </gpc:gs1Schema>
+    </eanucc:message>
+</sh:StandardBusinessDocument>
