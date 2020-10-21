@@ -1,5 +1,24 @@
 # BrickLoader
 
+## Data Source
+
+[https://www.gs1.org/standards/gpc](https://www.gs1.org/standards/gpc)
+
+## Usage
+
+```
+Usage: cli [OPTIONS] COMMAND [ARGS]...
+
+Options:
+  -h, --help  Show this message and exit
+
+Commands:
+  loadXml        loads GPC bricks from XML file
+  loadCsv        Load GPC Bricks from CSV (defunct)
+  loadCustom     loads custom bricks
+  createIndexes  creates indexes on the bricks collection
+```
+
 ## Indexes
 
 ### MongoDB Indexes
@@ -25,6 +44,8 @@ db.brick.createIndex({
 ```
 
 ### Atlas FTS Definition
+
+Must be created through the Atlas console or API.
 
 ```javascript
 {
