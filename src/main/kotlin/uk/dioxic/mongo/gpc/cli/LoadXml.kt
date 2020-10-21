@@ -17,7 +17,7 @@ import kotlin.time.ExperimentalTime
 import kotlin.time.measureTime
 
 @ExperimentalStdlibApi
-class LoadXml : CliktCommand(name = "loadXml") {
+class LoadXml : CliktCommand(name = "loadXml", help = "loads GPC bricks from XML file") {
 
     private val xmlFile by argument(help = "xml file to import").path(mustExist = true, canBeDir = false)
     private val authOptions by AuthOptions().cooccurring()

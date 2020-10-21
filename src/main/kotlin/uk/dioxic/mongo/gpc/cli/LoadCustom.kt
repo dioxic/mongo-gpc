@@ -11,7 +11,7 @@ import org.litote.kmongo.save
 import uk.dioxic.mongo.gpc.model.Brick
 
 @ExperimentalStdlibApi
-class LoadCustom : CliktCommand(name = "loadCustom") {
+class LoadCustom : CliktCommand(name = "loadCustom", help = "loads custom bricks") {
 
     private val authOptions by AuthOptions().cooccurring()
     private val connOptions by ConnectionOptions()

@@ -14,7 +14,7 @@ import uk.dioxic.mongo.gpc.model.Brick
 import uk.dioxic.mongo.gpc.processCsv
 
 @ExperimentalStdlibApi
-class LoadCsv : CliktCommand(name = "loadCsv") {
+class LoadCsv : CliktCommand(name = "loadCsv", help = "Load GPC Bricks from CSV (defunct)") {
 
     private val csvFile by argument(help = "csv file to import").path(mustExist = true, canBeDir = false)
     private val authOptions by AuthOptions().cooccurring()
